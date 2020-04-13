@@ -28,7 +28,8 @@ $ yum install ansible
 
 ```shell
 $ ssh-keygen
-$ ssh-copy-id root@your_server_ip```
+$ ssh-copy-id root@your_server_ip
+```
 
 > Configuring Ansible Hosts
 
