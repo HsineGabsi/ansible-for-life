@@ -66,7 +66,6 @@ $ ip a
 
 - 🔃 Clone this repo to your local machine using https://github.com/ihebsd/ansible-for-life
 
-## Conlusion
 
 ## Support
 
