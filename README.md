@@ -24,6 +24,11 @@
 $ yum install epel-release
 $ yum install ansible
 ```
+> Setup SSH Communications
+
+```shell
+$ ssh-keygen
+$ ssh-copy-id root@your_server_ip```
 
 > Configuring Ansible Hosts
 
@@ -37,6 +42,11 @@ $ vi /etc/ansible/hosts
     - alias ansible_ssh_host=your_Dnsserver_ip
 - **[HaProxy]** 🔨
     - alias ansible_ssh_host=your_HaProxyserver_ip
+    
+ > Tests reachability using :
+ ```shell
+$ ansible ping --all
+```
 
 ### Step 2
 
@@ -55,9 +65,16 @@ $ ip a
 
 - 🔃 Clone this repo to your local machine using https://github.com/ihebsd/ansible-for-life
 
----
+## Conlusion
 
-## Project steps
+## Support
 
-## Configuration
+Ansible from Zero to Hero download these two cources :
+- Linux Academy Red Hat Certificate of Expertise in Ansible Automation Prep Course
+- [CourseClub.NET] LiveLessons - Automating with Ansible
+
+## Me
+
+Reach out to me at one of the following places!
+- Linkedin at <a href="https://www.linkedin.com/in/iheb-sidhom-00474a190/" target="_blank">`Linkedin`</a>
 
