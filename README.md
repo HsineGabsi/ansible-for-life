@@ -14,7 +14,7 @@
 ### Step 1
 
 - **Setting up the environement**
-    - 5 'Centos7' Vms : Ansible Server, 2 Web Servers, 1 DNS Server, 1 Load Balancer.
+    - 5 `Centos7` Vms : Ansible Server, 2 Web Servers, 1 DNS Server, 1 Load Balancer.
 
 - **Setting the Ansible VM**
 
