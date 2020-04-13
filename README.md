@@ -53,7 +53,7 @@ $ ip a
 
 ### Step 3
 
-- 🔃 Clone this repo to your local machine using https://github.com/fvcproductions/SOMEREP
+- 🔃 Clone this repo to your local machine using https://github.com/ihebsd/ansible-for-life
 
 ---
 
