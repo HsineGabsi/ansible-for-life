@@ -30,12 +30,12 @@ $ yum install ansible
 ```shell
 $ vi /etc/ansible/hosts
 ```
-[Web]
+- **[Web]** 🔨
 alias ansible_ssh_host=your_web1server_ip
 alias ansible_ssh_host=your_web2server_ip
-[Dns]
+- **[Dns]** 🔨
 alias ansible_ssh_host=your_Dnsserver_ip
-[HaProxy]
+- **[HaProxy]** 🔨
 alias ansible_ssh_host=your_HaProxyserver_ip
 
 ### Step 2
