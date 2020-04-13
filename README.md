@@ -40,11 +40,20 @@ $ vi /etc/ansible/hosts
 
 ### Step 2
 
-- **HACK AWAY!** 🔨🔨🔨
+- **Setting up the Slaves**
+
+> The way you update CentOS and all its packages.
+```shell
+$ yum update -y
+```
+> Ensure that the @ matches with the @ in /etc/ansible/hosts.
+```shell
+$ ip a
+```
 
 ### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Clone this repo to your local machine using https://github.com/fvcproductions/SOMEREP
 
 ---
 
