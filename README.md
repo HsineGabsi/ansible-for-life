@@ -46,7 +46,7 @@ $ vi /etc/ansible/hosts
     
  > Tests reachability using :
  ```shell
-$ ansible ping --all
+$ ansible -m ping --all
 ```
 
 ### Step 2
